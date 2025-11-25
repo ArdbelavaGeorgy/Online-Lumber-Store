@@ -1,0 +1,78 @@
+# Системные файлы
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Временные файлы
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Node.js (если используется, но в этом проекте не используется)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# package-lock.json - можно оставить, если есть package.json
+# yarn.lock - можно оставить, если есть package.json
+
+# Окружение и конфигурация
+.env
+.env.local
+.env.*.local
+*.env
+
+# WordPress специфичные (если есть исходники)
+# wp-config.php - НЕ исключаем, так как это статический экспорт
+# .htaccess - НЕ исключаем для демонстрации
+
+# Кэш и временные файлы WordPress
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+
+# Логи
+*.log
+error_log
+debug.log
+
+# Архивы (обычно не нужны в репозитории)
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# ============================================
+# ВАЖНО ДЛЯ ПОРТФОЛИО:
+# ============================================
+# НЕ исключаем следующие файлы, чтобы работодатель мог все посмотреть:
+# ✅ Все HTML файлы (страницы сайта)
+# ✅ Все CSS файлы (стили)
+# ✅ Все JS файлы (скрипты)
+# ✅ Все изображения (jpg, png, svg, gif и т.д.)
+# ✅ Все шрифты (woff, woff2, ttf, eot)
+# ✅ wp-content/ (темы, плагины, загрузки)
+# ✅ wp-includes/ (ядра WordPress)
+# ✅ robots.txt, index.html и другие важные файлы
+# ============================================
+
